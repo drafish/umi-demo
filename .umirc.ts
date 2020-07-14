@@ -8,5 +8,6 @@ export default defineConfig({
     { path: '/', component: '@/pages/index' },
     { path: '/user', component: '@/pages/user' },
   ],
+  publicPath: '/sub/app/',
   dynamicImport: {},
 });
